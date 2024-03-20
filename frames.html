@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <title>Frameset Example</title>
+    </head>
+    <frameset rows="20%,*,10%" frameborder="0" noresize="noresize">
+        <!-- First frame -->
+         
+       <frame src="frame1.html">
+         <frameset cols="20%,*">
+            <frame src="frame2.html" >
+
+            <frame src="frame3.html"name="Table" >
+         </frameset>
+       <frame src="frame4.html">
+        
+        <noframes>
+            <body>
+                Your browser doesn't support frames. Please update to a modern
+                browser.
+            </body>
+        </noframes>
+    </frameset>
+</html>
